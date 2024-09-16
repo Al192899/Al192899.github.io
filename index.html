@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORAPM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="main-container">
+        <!-- Contenedor para el título y la imagen del sticker -->
+        <div class="left-side">
+            <h1>Online Reference A Page Market</h1>
+            <div class="image-container sticker">
+                <img src="OIP.jpeg" alt="Imagen del sticker" id="exampleImage">
+            </div>
+            <!-- Descripción de la imagen -->
+            <p class="description">Somos una página que Reúne las mejores tiendas online  aqui puedes encontrar los mejores productos para tu mercado en línea. Explora nuestra amplia gama de artículos y servicios.</p>
+        </div>
+
+        <!-- Contenedor del formulario de inicio de sesión -->
+        <div class="right-side">
+            <div class="container">
+                <h2>Iniciar Sesión</h2>
+
+                <!-- Buscador -->
+                <form id="searchForm">
+                    <label for="search">Buscar en el sitio:</label>
+                    <input type="text" id="search" name="search" placeholder="Buscar...">
+                    <input type="submit" value="Buscar">
+                </form>
+
+                <!-- Espacio para la imagen de perfil -->
+                <div class="image-container profile">
+                    <img src="blank-profile-picture-973460_1280-768x768.jpg" alt="Imagen de perfil" id="exampleImage">
+                </div>
+
+                <!-- Formulario de inicio de sesión -->
+                <form id="loginForm">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+
+                    <input type="submit" value="Iniciar Sesión">
+                </form>
+
+                <p>¿No tienes una cuenta? <a href="Login.html">Regístrate aquí</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="backend.js"></script>
+</body>
+</html>
